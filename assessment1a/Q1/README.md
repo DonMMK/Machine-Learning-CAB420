@@ -33,6 +33,7 @@ Steps taken to complete this question
 - Evaluate the model using metrics such as mean squared error and R-squared.
 
 #### Train a Ridge regression model:
+-It depends on what tools your using, and if you're standardising the data or not. But if the data is not is not standardised you will need a constant.
 - Use scikit-learn to train a Ridge regression model on the training data.
 - Use the validation data to find the optimal value of the regularization parameter λ.
 - Evaluate the model using metrics such as mean squared error and R-squared.
