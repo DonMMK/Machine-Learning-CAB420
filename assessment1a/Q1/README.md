@@ -59,6 +59,26 @@ Steps taken to complete this question
 - Predict the target variable using the model and the testing data.
 - Evaluate the model using metrics such as mean squared error and R-squared.
 
+
+Wade Z
+  2 days ago
+Is anyone else using the RidgeCV and LassoCV classes from sklearn?
+I'm confused by this statement in the assignment
+For LASSO and Ridge models, the validation
+dataset should be used to select the optimal value of λ.
+If I use the RidgeCV.fit() method am i passing in the training set or validation set? Or should I do both and do an analysis?
+2 replies
+
+
+Ethan Tutor
+  2 days ago
+you should be using the training data for the fit function. the validation data is used to find optimal lambda values
+
+
+Simon
+  2 days ago
+I would avoid RidgeCV and LassoCV. If you want to use SKLearn, just use the regular Lasso and Ridge functions.
+
 #### Compare and analyze the results:
 - Compare the performance of the three models on the testing data using metrics such as mean squared error and R-squared.
 - Evaluate the complexity and interpretability of each model.
